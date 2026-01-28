@@ -1,5 +1,12 @@
 # This will simulate sample customer data so your repo is fully runnable without real data.
 
+# What this file does?
+# 1. Encapsulated in a class → easy to reuse and extend.
+# 2. Simulates realistic banking customer data for ML.
+# 3. Adds a target column y with simple logic.
+#4. Can save CSV to data/sample_data.csv.
+#5. Includes quick test at the bottom, so you can run if needed.
+
 import pandas as pd
 import numpy as np
 
